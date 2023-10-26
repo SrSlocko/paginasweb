@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INICIO DE SESIÓN E-COMMERCE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="section-img">
+        <div><img src="assets/limglogin.png" alt="img-login" /></div>
+      </section>
+
+      <section class="container">
+        <h1>Iniciar Sesión</h1>
+        <p>
+          Si ya tienes un número, puedes iniciar sesión con tu correo
+          electrónico y contraseña.
+        </p>
+        <hr />
+        <form action="" class="form-login">
+          <div>
+            <label for="email">Dirección de correo electrónico</label>
+            <input
+              type="email"
+              placeholder="ejemplousuario@gmail.com"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div>
+            <label for="password">Contraseña</label>
+            <input
+              type="password"
+              placeholder="*******"
+              name="password"
+              id="password"
+            />
+          </div>
+
+          <label for="remember" class="remember">
+            <input type="checkbox" name="remember" />
+            <span> Recordarme</span>
+          </label>
+          <button type="button">Registrar Cuenta</button>
+        </form>
+        <p>¿No tienes una cuenta? <a href="#">Regístrate aquí</a></p>
+      </section>
+    </main>
+  </body>
+</html>
